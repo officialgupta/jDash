@@ -21,6 +21,9 @@ public class Main extends Application {
 		
 		Scene scene = new Scene(grid, 1920, 1080);
 		
+		//Debugging using gridlines if necessary
+		grid.setGridLinesVisible(false);
+		
 		primaryStage.setTitle("Mayank's Spectacular Life Hub Dashboard");
 		primaryStage.setScene(scene);
 		primaryStage.show();
