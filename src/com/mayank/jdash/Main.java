@@ -22,6 +22,7 @@ public class Main extends Application {
 		
 		this.primaryStage = primaryStage;
 		this.primaryStage.setTitle("Mayank's Spectacular Life Hub Dashboard");
+		this.primaryStage.setTitle("jDash");
 		
 		initRootLayout();
 		
