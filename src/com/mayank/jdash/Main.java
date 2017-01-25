@@ -21,7 +21,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		
 		this.primaryStage = primaryStage;
-		this.primaryStage.setTitle("Mayank's Spectacular Life Hub Dashboard");
+		this.primaryStage.setTitle("Emacs");
 		
 		initRootLayout();
 		
