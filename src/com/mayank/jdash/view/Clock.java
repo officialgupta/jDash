@@ -1,9 +1,8 @@
-package com.mayank.jdash.view.clock;
+package com.mayank.jdash.view;
 
 import java.io.IOException;
 
 import com.mayank.jdash.Main;
-import com.mayank.jdash.view.DashController;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;

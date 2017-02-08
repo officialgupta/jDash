@@ -50,11 +50,13 @@ public class Main extends Application {
 		try {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("view/Dash.fxml"));
-            AnchorPane Dash = (AnchorPane) loader.load();
+            //loader.setLocation(Main.class.getResource("view/Dash.fxml"));
+            loader.setLocation(Main.class.getResource("view/Clock.fxml"));
+            //AnchorPane Dash = (AnchorPane) loader.load();
+            BorderPane Clock = (BorderPane) loader.load();
 
-            // Set person overview into the center of root layout.
-            rootLayout.setCenter(Dash);
+            // Set dash into the center of root layout.
+            rootLayout.setCenter(Clock);
 
             // Give the controller access to the main app.
             DashController controller = loader.getController();
